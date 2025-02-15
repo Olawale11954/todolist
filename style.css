@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+  }
+  .todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+  .todo-app h2{
+    color: #002765;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .todo-app p{
+    font-size: 24px;
+    color: brown;
+    margin-bottom: 20px;
+  }
+  ul li{
+    padding: 20px;
+    list-style: none;
+  }
+  li a{
+    text-decoration: none;
+    background-color: #4e085f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#911efc, #95c0ff);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+.socia-media{
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+   margin: 10px;
+}
+
+.socia-media img{
+    width: 30px;
+    margin-right: 10px;
+}
+.socia-media p{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
